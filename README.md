@@ -10,7 +10,7 @@ Uses *adt* to generate a code signing certificate.
 
 ### compile
 
-Compiles a swf using the HelloWorld.as file using the amxmlc compiler.
+Compiles a swf using the HelloWorld.as file using the *amxmlc* compiler.
 
 ### package
 
@@ -18,11 +18,11 @@ Creates an .apk package containing the compiled swf. Uses HelloWorld-app.xml for
 
 ### install
 
-Installs the packaged .apk to the active Android emulator.
+Installs the packaged .apk to the active Android emulator using Android SDK's *adb*
 
 ### uninstall
 
-Uninstalls the application from the active Android emulator.
+Uninstalls the application from the active Android emulator using Android SDK's *adb*
 
 ## Other files
 
