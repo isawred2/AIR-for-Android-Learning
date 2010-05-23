@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+#generate a code signing certificate
+adt -certificate \
+    -cn SelfSign \
+    -o "Typeoneerror Studios" \
+    2048-RSA \
+    certificate.p12 \
+    password

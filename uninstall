@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+#uninstall from emulator
+adb -e uninstall app.typeoneerror.document.HelloWorld

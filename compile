@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+#compile swf
+amxmlc src/typeoneerror/document/HelloWorld.as \
+    -compiler.source-path+=./src \
+    -creator "Ben Borowski" \
+    -output bin/HelloWorld.swf;

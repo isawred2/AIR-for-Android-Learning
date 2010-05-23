@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+#package
+adt -package \
+    -target apk \
+    -storetype pkcs12 \
+    -keystore certificate.p12 \
+    -keypass password \
+    -storepass password \
+    bin/HelloWorld.apk \
+    HelloWorld-app.xml \
+    bin/HelloWorld.swf;

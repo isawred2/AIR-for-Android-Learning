@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+#install in emulator
+adb -e install bin/HelloWorld.apk

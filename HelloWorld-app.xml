@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/2.5" minimumPatchLevel="0">
+    <id>typeoneerror.document.HelloWorld</id>
+    <filename>HelloWorld</filename>
+    <name>HelloWorld</name>
+    <version>v1</version>
+    <description>
+        <text xml:lang="en">This is a sample Adobe AIR application.</text>
+    </description>
+    <supportedProfiles>mobileDevice</supportedProfiles>
+    <initialWindow>
+        <content>bin/HelloWorld.swf</content>
+        <visible>true</visible>
+        <fullScreen>true</fullScreen>
+        <width>320</width>
+        <height>480</height>
+    </initialWindow>
+</application>
